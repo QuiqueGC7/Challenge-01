@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SportEvents</title>
+  <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+  <header>
+    <h1>SportEvents</h1>
+    <p>Descubre los próximos eventos deportivos</p>
+  </header>
+
+  <main class="container">
+    <div class="filters">
+      <input id="search" type="search" placeholder="Buscar evento">
+
+      <select id="category">
+        <option value="todos">Todos los deportes</option>
+        <option value="fútbol">Fútbol</option>
+        <option value="running">Running</option>
+        <option value="ciclismo">Ciclismo</option>
+      </select>
+    </div>
+
+    <section id="events" class="events"></section>
+  </main>
+
+  <script src="../js/index.js"></script>
+</body>
+</html>
